@@ -1,0 +1,97 @@
+<section class="section1">
+  <div class="Mainbar">
+    <div class="logo">
+      <img src="../../assets/images/log2.png">
+    </div>
+    <div class="search-bar">
+      <div class="search-bar-adj">
+        <h1>ALL CATEGORIES</h1>
+        <input type="text" placeholder="Search For The Course">
+        <img src="../../assets/images/magnifying-glass.png">
+      </div>
+    </div>
+    <div class="proflie">
+      <div>
+        <img src="../../assets/images/alarm.png">
+        <h1>ALERT</h1>
+      </div>
+      <div>
+        <img src="../../assets/images/man.png">
+        <h1>PROFILE</h1>
+      </div>
+    </div>
+  </div>
+  <section class="section2">
+    <div class="section2-left">
+      <div>
+        <h1>WEB DESIGN</h1>
+        <h2>Beginners Guide To Web Design</h2>
+        <h3>40% Completed</h3>
+        <button routerLink="/completion">RESUME COURSE</button>
+      </div>
+    </div>
+    <div class="section2-right"></div>
+  </section>
+</section>
+
+<section class="section3">
+  <div class="section3-adj">
+    <div class="buttons">
+      <a (click)="fun1()">OVERVIEW</a>
+      <a (click)="fun2()">REVIEWS</a>
+    </div>
+    <div class="text" *ngIf="value1">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </div>
+    <div class="text" *ngIf="value2">
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+    </div>
+  </div>
+</section>
+<section class="section4">
+  <div class="section4-adj">
+    <h1>COURSE BREAKDOWN</h1>
+    <div class="menu1">
+      <div class="menu1-head">
+        <div (click)="fun3()">&darr;</div>
+        <div>1. Introduction To Web Design</div>
+      </div>
+      <div class="menu1-para" *ngIf="value3">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+  </div>
+    <div class="menu1">
+      <div class="menu1-head">
+        <div (click)="fun4()">&darr;</div>
+        <div>2. Basic Concepts of HTML </div>
+      </div>
+      <div class="menu1-para" *ngIf="value4">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+    </div>
+    <div class="menu1">
+      <div class="menu1-head">
+        <div (click)="fun5()">&darr;</div>
+        <div>3. Basic Concept Of CSS</div>
+      </div>
+      <div class="menu1-para" *ngIf="value5">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+    </div>
+    <div class="menu1">
+      <div class="menu1-head">
+        <div (click)="fun6()">&darr;</div>
+        <div>4. Basic Concepts Of javaScript</div>
+      </div>
+      <div class="menu1-para" *ngIf="value6">
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,66 @@
+
+<section class="main">
+  <section class="section1">
+    <div class="section1-logo">
+      <h1>
+        <img src="../../assets/images/log2.png" routerLink="/">
+      </h1>
+    </div>
+    <div class="section1-mid">
+      <div class="section1-mid-adj">
+<!--          <div class="buttons">-->
+<!--            <button>LogIn</button>-->
+<!--            <button>SignIn</button>-->
+<!--          </div>-->
+        <mat-button-toggle-group class="buttons" >
+          <mat-button-toggle value="Login" class="button1" (click)="togglediv1()">Login</mat-button-toggle>
+          <mat-button-toggle value="SignUp" class="button2" (click)="togglediv2()">SignUp</mat-button-toggle>
+        </mat-button-toggle-group>
+          <div *ngIf="visible1" >
+            <input type="text" placeholder="UserName" required @buttontoggle>
+            <input type="password" placeholder="Password" required @buttontoggle>
+            <mat-button-toggle class="button1" routerLink="/courses" @buttontoggle>LogIn</mat-button-toggle>
+          </div>
+
+            <div *ngIf="visible2" >
+              <input type="text" placeholder="FirstName" required @buttontoggle>
+              <input type="text" placeholder="lastName" required @buttontoggle>
+              <input type="password" placeholder="Password" required @buttontoggle>
+              <mat-button-toggle class="button2" routerLink="/courses" @buttontoggle>SignUp</mat-button-toggle>
+            </div>
+
+      </div>
+    </div>
+    <div class="section1-button">
+      <button class="btn" routerLink="/courses">
+        Get Started
+      </button>
+    </div>
+  </section>
+  <section class="section2">
+    <div class="section2-menu">
+<!--      <ul>-->
+<!--        <li>-->
+<!--          <a routerLink="/courses">Dashboard</a>-->
+<!--          <div></div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="/coursesContinue">Courses</a>-->
+<!--          <div></div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="/completion">Completion</a>-->
+<!--          <div></div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#">INFO</a>-->
+<!--          <div></div>-->
+<!--        </li>-->
+<!--        <li>-->
+<!--          <a href="#">CONTACT US</a>-->
+<!--          <div></div>-->
+<!--        </li>-->
+<!--      </ul>-->
+    </div>
+  </section>
+</section>

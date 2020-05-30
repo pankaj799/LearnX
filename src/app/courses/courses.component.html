@@ -1,0 +1,239 @@
+<section class="section1">
+  <div class="Mainbar">
+    <div class="logo">
+      <img src="../../assets/images/log2.png" routerLink="/">
+    </div>
+    <div class="search-bar">
+      <div class="search-bar-adj">
+        <h1>ALL CATEGORIES</h1>
+        <input type="text" placeholder="Search For The Course">
+        <img src="../../assets/images/magnifying-glass.png">
+      </div>
+    </div>
+    <div class="proflie">
+      <div>
+        <img src="../../assets/images/alarm.png">
+        <h1>ALERT</h1>
+      </div>
+      <div>
+        <img src="../../assets/images/man.png">
+        <h1>PROFILE</h1>
+      </div>
+    </div>
+  </div>
+  <section class="section1-mid">
+    <div class="section1-left">
+      <div class="AboutPerson">
+        <div class="AboutPerson-adj">
+          <img src="../../assets/images/man.png">
+          <div class="PersonName">
+            <h1>Hey, John!</h1>
+            <div>
+              <p>Lead Interaction Designer</p>
+              <img src="../../assets/images/award.png">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="Achievements">
+        <div class="Achievements-1">
+          <h1>ACTIVITY</h1>
+          <h1>KEY CATEGORIES</h1>
+        </div>
+        <div class="Achievements-2">
+          <div>
+            <h1>8</h1>
+            <h1>Year Employed</h1>
+          </div>
+          <div>
+            <h1>9</h1>
+            <h1>Courses Completed</h1>
+          </div>
+          <div>
+            <h1>38</h1>
+            <h1>Hours Study Time</h1>
+          </div>
+          <div>
+            <h1>32</h1>
+            <h1>Mins Average Study Time</h1>
+          </div>
+        </div>
+      </div>
+      <div class="buttons">
+        <button class="button1" (click)="togglediv1()">RECOMMENDED</button>
+        <button class="button2" (click)="togglediv2()">COMPLETED</button>
+        <button class="button3" (click)="togglediv3()">FAVOURITES</button>
+      </div>
+    </div>
+    <div class="section1-right" routerLink="/coursesContinue">
+      <div class="card-back">
+        <div class="card-front">
+          <div>
+            <h1>
+              WEB DESIGN
+            </h1>
+          </div>
+          <h2>Course In Progress</h2>
+          <h3>Beginners Guide For</h3>
+          <h3>Web Design</h3>
+          <img src="../../assets/images/computer.png">
+          <p>45% Completed</p>
+          <p>Click To Resume </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</section>
+<section class="section2" *ngIf="visible1">
+  <div class="section2-1">
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+  </div>
+  <div class="section2-2">
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+  </div>
+  <div class="section2-3" @buttontoggle1>
+    <div class="card">
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+  </div>
+  <div class="VM"><button class="ViewMore">View More+</button></div>
+</section>
+<section class="section2" *ngIf="visible2">
+  <div class="section2-1">
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+  </div>
+  <div class="section2-2">
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+  </div>
+  <div class="VM"><button class="ViewMore">View More+</button></div>
+</section>
+<section class="section2" *ngIf="visible3">
+  <div class="section2-1">
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+    <div class="card" @buttontoggle1>
+      <h1>WEB DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+  </div>
+  <div class="section2-2">
+    <div class="card1" @buttontoggle1>
+      <h1>GRAPHIC DESIGNS</h1>
+      <h2>Master Web Design in Photoshop</h2>
+      <h3>Learn how to create stunning website designs in Photoshop</h3>
+      <button>Buy Now!</button>
+    </div>
+
+  </div>
+  <div class="VM"><button class="ViewMore">View More+</button></div>
+</section>
+<section class="section3">
+  <div class="section3-left">
+    <div class="left-adj">
+      <h1>LearnX</h1>
+      <div>
+        <p>Privacy Policy</p>
+        <p>Terms & Conditions</p>
+        <p>Groups</p>
+        <p>Contact Us</p>
+      </div>
+    </div>
+  </div>
+  <div class="section3-right"></div>
+</section>
+

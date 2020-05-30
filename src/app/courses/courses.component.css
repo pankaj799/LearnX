@@ -1,0 +1,450 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins',SansSerif;
+}
+.section1{
+  background-image: url("../../assets/images/Artboard 1.png");
+  background-size: 100% 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: 7px;
+}
+.Mainbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 8%;
+  border-bottom: 1px solid white;
+}
+.logo{
+  flex: .5;
+  display: flex;
+}
+.logo img{
+  width: 40%;
+}
+.search-bar{
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.search-bar-adj{
+  box-shadow: 0px 10px 45px -11px rgba(0,0,0,0.75);
+  max-width: 40vw;
+  height: 60%;
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  margin-top: 8px;
+  border-radius: 5px;
+}
+.search-bar h1{
+  flex: 1;
+  color: white;
+  background-color: #3842b7;
+  text-align: center;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px 0 0 5px ;
+}
+.search-bar input{
+  flex: 4;
+  border: transparent;
+  background-color: white;
+  padding: 0 1rem;
+  border-radius: 0 5px 5px 0;
+}
+.search-bar img{
+  width: 4%;
+  height: 60%;
+  background-color: white;
+  margin-top: 5px;
+  margin-right: 5px;
+  transform: translateX(-20px);
+}
+.proflie{
+  flex: .5;
+  display: flex;
+  flex-direction: row;
+}
+.proflie div:first-child{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proflie div:last-child{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.proflie div img{
+  width: 25%;
+}
+.proflie div h1{
+  text-align: center;
+  color: #e9ecfb;
+}
+.section1-mid{
+  display: flex;
+  flex-direction: row;
+}
+.section1-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 2rem;
+}
+.AboutPerson{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.AboutPerson-adj{
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+}
+.AboutPerson img{
+  max-width: 30%;
+}
+.PersonName{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.PersonName h1{
+  font-size: 2.5rem;
+  color: white;
+}
+.PersonName div{
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1e5ea8;
+  padding: 5px 5px;
+  border-radius: 2px;
+}
+.PersonName div p{
+  font-size: 10px;
+  color: white;
+}
+.PersonName div img{
+  width: 5%;
+  padding-right: 5px;
+  transform: scale(3) rotateZ(20deg);
+}
+
+.Achievements{
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+.Achievements-1{
+  display: flex;
+  flex-direction: row;
+  padding: 2rem 0;
+  border-bottom: 1px solid white;
+}
+.Achievements-1 h1:first-child{
+  font-family: "Poppins Light",SansSerif;
+  color: white;
+  font-size: .8rem;
+  padding: 0 1rem;
+}
+.Achievements-1 h1:last-child{
+  font-family: "Poppins Light",SansSerif;
+  color: white;
+  font-size: .8rem;
+  padding: 0 1rem;
+}
+.Achievements-2{
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid white;
+  margin-bottom: 5rem;
+}
+.Achievements-2 div{
+  color: white;
+  width: 40%;
+  text-align: center;
+}
+.Achievements-2 div h1:first-child{
+  font-size: 4rem;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0px 10px 16px -11px rgba(0,0,0,1);
+}
+.button1{
+  background-color: #183986;
+  color: white;
+  border: transparent;
+  padding: 1rem 1rem;
+}
+.button1:hover{
+  background-color: white;
+  color: #183986;
+  border: transparent;
+  padding: 1rem 1rem;
+}
+.button2{
+  background-color: #183986;
+  color: white;
+  border: transparent;
+  padding: 1rem 1rem;
+}
+.button2:hover{
+  background-color: white;
+  color: #183986;
+  border: transparent;
+  padding: 1rem 1rem;
+}
+.button3{
+  background-color: #183986;
+  color: white;
+  border: transparent;
+  padding: 1rem 1rem;
+}
+.button3:hover{
+  background-color: white;
+  color: #183986;
+  border: transparent;
+  padding: 1rem 1rem;
+}
+.section1-right{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-back{
+  width: 50%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 10px 16px -11px rgba(0,0,0,1);
+}
+.card-front{
+  background-color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 16px -11px rgba(0,0,0,1);
+}
+.card-front:hover{
+  background-color: white;
+  text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 16px -11px rgba(0,0,0,1);
+  transform: rotateZ(3deg);
+  transition: all .5s ease-out;
+}
+.card-front div{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-front div h1{
+  background-color: #ffc638;
+  color: white;
+  font-size: 10px;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 1rem;
+  padding: .8rem 0;
+  border-radius: 0 0 4px 4px;
+}
+
+.card-front h2{
+  color: #ffc638;
+  font-size: 20px;
+}
+.card-front h3{
+  color: #1c3878;
+  font-size: 25px;
+}
+.card-front img{
+  width: 40%;
+}
+.card-front p{
+  font-size: 14px;
+  color: #474747;
+  margin-bottom: 1.5rem;
+}
+.section2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section2-1{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+.section2-2{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+.section2-3{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+.card{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 1rem;
+  box-shadow: 0px 10px 40px -15px rgba(0,0,0,0.97);
+}
+.card h1{
+  color: white;
+  margin-left: 20px;
+  border-radius: 0 0 5px 5px;
+  width: 30%;
+  font-size: 12px;
+  padding: 10px 1.4rem;
+  background-color: #ffc638;
+  margin-bottom: 20px;
+}
+.card h2{
+  font-size: 20px;
+  color: #222257;
+}
+.card h3{
+  font-size: 13px;
+  color: #494949;
+  font-family: "Poppins Light",SansSerif;
+  margin: 10px 0;
+}
+.card button{
+  font-size: 12px;
+  border: transparent;
+  width: 50%;
+  padding: 5px 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+}
+.card1{
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-left: 1rem;
+  box-shadow: 0px 10px 40px -15px rgba(0,0,0,0.97);
+}
+.card1 h1{
+  color: white;
+  margin-left: 20px;
+  border-radius: 0 0 5px 5px;
+  width: 30%;
+  font-size: 12px;
+  padding: 10px 1.4rem;
+  background-color: #dd30a3;
+  margin-bottom: 20px;
+}
+.card1 h2{
+  font-size: 20px;
+  color: #222257;
+}
+.card1 h3{
+  font-size: 13px;
+  color: #494949;
+  font-family: "Poppins Light",SansSerif;
+  margin: 10px 0;
+}
+.card1 button{
+  font-size: 12px;
+  border: transparent;
+  width: 50%;
+  padding: 5px 0;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  background-color: darkblue;
+  color: white;
+  border-radius: 5px;
+}
+.VM{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ViewMore{
+  width: 10%;
+  padding: .5rem 1rem;
+  border: 2px solid #575757;
+  background-color: transparent;
+  color: grey;
+}
+.ViewMore:hover{
+  width: 10%;
+  padding: .5rem 1rem;
+  border:2px solid transparent;
+  background-color: orange;
+  color: white;
+}
+.section3{
+  display: flex;
+  flex-direction: row;
+  margin-top: 4rem;
+}
+.section3-left{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left-adj h1{
+  font-size: 4rem;
+  color: #3b3c41;
+}
+.left-adj div{
+  display: flex;
+  flex-direction: row;
+  color: #3b3c41;
+}
+.left-adj div p{
+  margin-left: 5px;
+  border-left: 2px solid grey;
+  padding: 3px;
+}
+.left-adj div p:first-child{
+  margin-left: 5px;
+  border-left: 2px solid transparent;
+  padding: 3px;
+}
+.section3-right{
+  flex: 1;
+  background-image: url("../../assets/images/mansitting.png");
+  background-size: 40% 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 100%;
+}
